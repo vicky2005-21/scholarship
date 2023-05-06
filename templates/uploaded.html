@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <title>Uploaded file</title>
+    <style>
+        /* Add CSS styles here */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 28px;
+            margin-top: 0;
+            animation-name: slidein;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-delay: 0.5s;
+            animation-fill-mode: forwards;
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 30px;
+            animation-name: fadein;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .success {
+            color: green;
+            font-weight: bold;
+            position: relative;
+        }
+        .success::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://www.animatedimages.org/data/media/492/animated-fireworks-image-0080.gif");
+            background-size: contain;
+            z-index: -1;
+        }
+        .warning {
+            color: orange;
+            font-weight: bold;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+        .message {
+            margin-top: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        @keyframes slidein {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0%);
+            }
+        }
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Uploaded file: {{ filename }}</h1>
+    {% if name %}
+        {% if scholarship_amount %}
+            <p class="success">Information extracted successfully!</p>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td>{{ name }}</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>{{ email }}</td>
+                </tr>
+                <tr>
+                    <th>Phone:</th>
+                    <td>{{ phone }}</td>
+                </tr>
+                <tr>
+                    <th>JEE score:</th>
+                    <td>{{ jee_score }}</td>
+                </tr>
+                <tr>
+                    <th>Sports scholarship amount :</th>
+                    <td class="success">{{ sports_scholarship_amount }}</td>
+                </tr>
+                <tr>
+                    <th>Academic scholarship amount :</th>
+                    <td class="success">{{ scholarship_amount }}</td>
+                </tr>
+            </table>
+        {% else %}
+            <div class="message warning">Sorry, you did not receive a scholarship. All the best for next time!</div>
+        {% endif %}
+    {% else %}
+        <p class="error">Failed to extract information. Please try again with a different file.</p>
+    {% endif %}
+</body>

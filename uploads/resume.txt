@@ -1,0 +1,6 @@
+Name: John Doe
+
+Email: john.doe@email.com
+Phone number: (123) 456-7890
+JEE score: 280
+sports = football
