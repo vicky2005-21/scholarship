@@ -7,25 +7,19 @@ A list of programming tutorials in which aspiring software developers learn how 
 
 - [C#](#c)
 - [C/C++](#cc)
-- [Clojure](#clojure)
 - [Dart](#dart)
 - [Elixir](#elixir)
 - [Erlang](#erlang)
-- [F#](#f)
 - [Go](#go)
-- [Haskell](#haskell)
 - [HTML/CSS](#html-and-css)
 - [Java](#java)
 - [JavaScript](#javascript)
 - [Kotlin](#kotlin)
-- [Lua](#lua)
-- [OCaml](#ocaml)
 - [PHP](#php)
 - [Python](#python)
 - [R](#r)
 - [Ruby](#ruby)
 - [Rust](#rust)
-- [Scala](#scala)
 - [Swift](#swift)
 - [Additional resources](#additional-resources)
 
@@ -130,25 +124,6 @@ A list of programming tutorials in which aspiring software developers learn how 
   - [Part 6 - Handlers](https://codepr.github.io/posts/sol-mqtt-broker-p6)
   - [Bonus - Multithreading](https://codepr.github.io/posts/sol-mqtt-broker-bonus)
 
-### OpenGL:
-
-- Creating 2D Breakout game clone in C++ with OpenGL
-  - [Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
-  - [Setting up](https://learnopengl.com/In-Practice/2D-Game/Setting-up)
-  - [Rendering Sprites](https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites)
-  - [Levels](https://learnopengl.com/In-Practice/2D-Game/Levels)
-  - Collisions
-    - [Ball](https://learnopengl.com/In-Practice/2D-Game/Collisions/Ball)
-    - [Collision detection](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection)
-    - [Collision resolution](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-resolution)
-  - [Particles](https://learnopengl.com/In-Practice/2D-Game/Particles)
-  - [Postprocessing](https://learnopengl.com/In-Practice/2D-Game/Postprocessing)
-  - [Powerups](https://learnopengl.com/In-Practice/2D-Game/Powerups)
-  - [Audio](https://learnopengl.com/In-Practice/2D-Game/Audio)
-  - [Render text](https://learnopengl.com/In-Practice/2D-Game/Render-text)
-  - [Final thoughts](https://learnopengl.com/In-Practice/2D-Game/Final-thoughts)
-- [Handmade Hero](https://handmadehero.org)
-- [How to Make Minecraft in C++/OpenGL](https://www.youtube.com/playlist?list=PLMZ_9w2XRxiZq1vfw1lrpCMRDufe2MKV_) (video)
 
 ## C#:
 
@@ -158,13 +133,6 @@ A list of programming tutorials in which aspiring software developers learn how 
 - [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
 - [Building the CoreWiki](https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p) This is a Wiki-style content management system that has been completely written in C# with ASP.NET Core and Razor Pages. You can find the source code [here](https://github.com/csharpfritz/CoreWiki).
 
-## Clojure:
-
-- [Build a Twitter Bot with Clojure](http://howistart.org/posts/clojure/1/index.html)
-- [Building a Spell-Checker](https://bernhardwenzel.com/articles/clojure-spellchecker/)
-- [Building a JIRA integration with Clojure & Atlassian Connect](https://hackernoon.com/building-a-jira-integration-with-clojure-atlassian-connect-506ebd112807)
-- [Prototyping with Clojure](https://github.com/aliaksandr-s/prototyping-with-clojure)
-- [Tetris in ClojureScript](https://shaunlebron.github.io/t3tr0s-slides)
 
 ## Dart:
 
@@ -194,9 +162,6 @@ A list of programming tutorials in which aspiring software developers learn how 
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
 - [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
 
-## F#:
-
-- [Write your own Excel in 100 lines of F#](http://tomasp.net/blog/2018/write-your-own-excel)
 
 ## Java:
 
@@ -608,10 +573,6 @@ A list of programming tutorials in which aspiring software developers learn how 
   - [Part 3](https://pwy.io/en/posts/learning-to-fly-pt3/)
   - [Part 4](https://pwy.io/en/posts/learning-to-fly-pt4/)
 
-## Scala:
-
-- [Simple actor-based blockchain](https://www.freecodecamp.org/news/how-to-build-a-simple-actor-based-blockchain-aac1e996c177/)
-- [No Magic: Regular Expressions](https://rcoh.svbtle.com/no-magic-regular-expressions)
 
 ## Swift:
 
